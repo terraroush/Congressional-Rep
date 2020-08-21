@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congressional Representative</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <!-- this is the main component of the page that holds all info about the representative -->
+    <article class="mainRepComponent">
+        <!-- this section element is the parent of the img tag, title, and two paragraphs. -->
+        <section class="rep allSection">
+            <!-- this is a child of .rep -->
+            <h2 class="rep__name">Rep. Jim Cooper</h2>
+            <!-- this is a child of .rep -->
+            <div class="rep__district">Representative for  Tennessee's 5th District</div>
+            <!-- this is a child of .rep -->
+            <div class="rep__affilition">Political Affiliation: Democrat</div>
+            <!-- this is a child of .rep -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Jim_Cooper.jpg/220px-Jim_Cooper.jpg" alt="photo of Jim Cooper" class="rep__photo">
+        </section>
+        <!-- this section element is the parent of the h2 and ul -->
+        <section class="committees allSection">
+            <!-- this is a child of .committees -->
+            <h4 class="committees__title">Committees</h4>
+            <!-- this is a child of .committees, and the parent of the lis -->
+            <ul class="committees__list">
+                <li>House Committee on Armed Services</li>
+                <li>House Committee on the Budget</li>
+                <li>House Committee on Oversight and Reform</li>
+            </ul>
+        </section>
+        <!-- this section is the parent of the h2 and a tags -->
+        <section class="legislation allSection">
+            <!-- this is a child of .legislation -->
+            <h4 class="legislation__title">Legislation</h4>
+            <ul>
+                <li><a href="https://www.govtrack.us/congress/bills/112/hr482" class="legislation__link">H.R. 482 (112th): Water Heater Rating Improvement Act of 2011</a></li>
+                <li><a href="https://www.govtrack.us/congress/bills/110/hr928" class="legislation__link">H.R. 928 (110th): Inspector General Reform Act of 2008</a></li>
+                <li><a href="https://www.govtrack.us/congress/bills/103/hjres297" class="legislation__link">H.J.Res. 297 (103rd): To designate 1994 as “The Year of Gospel Music”.</a></li>
+                <li><a href="https://www.govtrack.us/congress/bills/101/hr5667"  class="legislation__link">H.R. 5667 (101st): To amend the Water Resources Development Act of 1974 to establish a deadline for the transfer of jurisdiction of the Big South Fork National River and Recreation ...</a></li>
+                <li><a href="https://www.govtrack.us/congress/bills/101/hr971" class="legislation__link">H.R. 971 (101st): Telephone Operator Consumer Services Improvement Act of 1990</a></li>
+            </ul>   
+        </section>
+    </article>
+    
+</body>
+</html>
